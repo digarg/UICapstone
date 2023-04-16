@@ -1,0 +1,25 @@
+@import "variable";
+
+%contactus_primaryheading {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.contactus_secondaryheading {
+  @extend %contactus_primaryheading;
+  font-size: $font-size;
+}
+.contactus_text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* text */
+
+  color: #555555;
+}

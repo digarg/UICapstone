@@ -1,0 +1,3 @@
+function makeRequest(method, url, data, successCallback, errorCallback) { const xhr = new XMLHttpRequest(); xhr.open(method, url); xhr.setRequestHeader("content-type", "application/json"); xhr.onload = function () { if (xhr.status === 200) { successCallback(xhr.responseText); } else { errorCallback(xhr.statusText); } }; xhr.onerror = function () { errorCallback(xhr.statusText); }; xhr.send(JSON.stringify(data));}makeRequest( "GET", "https://jsonplaceholder.typicode.com/users/2", null, function (response) { createUI(response); }, function (error) { console.log("Failed", error); });function createUI(userData){
+    console.log(userData);
+}

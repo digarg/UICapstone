@@ -1,0 +1,214 @@
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.list-items_icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+li {
+  list-style-type: none;
+  margin: 20px 10px 20px 0px;
+}
+
+.container {
+  margin: 63px auto;
+  text-align: left;
+  width: 100%;
+}
+.heroBanner_aboutus {
+  width: 100%;
+  margin: 0 auto;
+  height: 368px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.testimonial {
+  display: flex;
+}
+#heading {
+  font: normal 700 36px/48px "Arimo";
+  color: #1d1d1d;
+  text-align: center;
+  margin-bottom: 100px;
+}
+#subHeading {
+  font: normal 400 20px/48px "Lato";
+  color: #555555;
+}
+#imageTitle {
+  font: normal 400 16px/25px "Baloo";
+  color: #1d1d1d;
+}
+#imagePrice {
+  font: normal 400 16px/19px "Lato";
+  color: #024e82;
+}
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  left: 0px;
+  right: 0px;
+  padding: 22px 65px 22px 65px;
+  background: #ffffff;
+}
+
+.policyDetail {
+  text-align: left;
+  margin-left: 22px;
+}
+.policyTitle {
+  font: normal 400 16px/25px "Baloo";
+  color: #1d1d1d;
+  text-transform: uppercase;
+}
+.policyDescription {
+  font: normal 400 16px/19.2px "Lato";
+  color: #555555;
+  max-width: 189px;
+}
+.policyContainer {
+  padding-top: 68px;
+  padding-bottom: 70px;
+}
+.offerDetail {
+  background: #000000;
+  width: 100%;
+  padding-top: 119px;
+  padding-bottom: 119px;
+}
+.offerContainer {
+  height: 429px;
+}
+.offerDetail > h5 {
+  font: normal 400 32px/48px "Lato";
+  color: #ffffff;
+  text-align: center;
+}
+
+.offerDetail > p {
+  font: normal 400 18px/23.4px "Lato";
+  color: #ffffff;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+button {
+  padding: 14px 36px 14px 36px;
+  background-color: #ffffff;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+footer {
+  background: #fbfbfb;
+  height: 486px;
+}
+.footerlinks__container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.footerlinks__container > ul {
+  font: normal 700 12px/14px "Arimo";
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #1d1d1d;
+}
+
+a {
+  font: normal 400 16px/28px "Lato";
+  color: #1d1d1d;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+}
+hr {
+  background: #fbfbfb;
+  color: #fbfbfb;
+}
+#copyright_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+form > button {
+  border-style: none;
+
+  background-image: url("/Users/divyagarg/Downloads/shobit/coudnew/cloudhsbc/aem-sdk-2022.10.9398.20221020T071514Z-220900/webpackdemo/resources/images/arrow.png");
+  background-repeat: no-repeat;
+}
+form > input {
+  border: none;
+  border-bottom-style: solid;
+  margin-right: 12px;
+}
+@media only screen and (min-width: 768px) {
+  .heroBanner {
+    width: 1366px;
+  }
+  hr {
+    width: 1366px;
+    margin: 0 auto;
+  }
+  main {
+    width: 1366px;
+    margin: 0 auto;
+  }
+  .offerDetail {
+    width: 48%;
+  }
+  #copyright_container {
+    width: 1366px;
+    margin: 0 auto;
+  }
+  #testimonial_container{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    margin-bottom: 100px;
+  }
+  .testimonial{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .testimonialText{
+    letter-spacing: 0em;
+text-align: left;
+width: 663px;
+height: 102px;
+  }
+.testimonialText > p{
+font-family: Baloo;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+color: #555555;
+;
+  }
+.testimonialText > p:last-child{
+font-family: Arimo;
+font-size: 21px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+
+  }
+  .testimonial>img{
+    height:210px;
+    width: 210px;
+}
+.contactus_container{
+  display: flex;
+}
