@@ -1,0 +1,19 @@
+{
+  "name": "webpackdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "saas --watch resources/scss/contactus.scss resources/style/style_contactus.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "saas": "^1.0.0",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
+}
